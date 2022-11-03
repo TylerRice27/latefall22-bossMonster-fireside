@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ruslan+Display&display=swap" rel="stylesheet" />
+
+</head>
+
+<body class="background-img d-flex flex-column justify-content-between">
+    <header class="container-fluid py-3 bg-dark text-light">
+        <div class="row d-flex text-center">
+            <!-- NOTE Buttons go here -->
+
+
+
+        </div>
+    </header>
+    <main class="container-fluid">
+        <!-- NOTE My companions go here -->
+
+
+        <div class="row align-items-center">
+            <div class="col-md-5 d-flex flex-column align-items-center">
+                <h3 class="text-light text-center text-shadow">HP: <span id="hero-hp">100</span></h3>
+                <img class="hero-img"
+                    src="https://media4.giphy.com/media/KhAH5dY2BA1PO/giphy.gif?cid=ecf05e474hopnqddrqrf9h3d3r71vpyxxseu2ny2hi45nnej&rid=giphy.gif&ct=s"
+                    alt="">
+            </div>
+            <div class="col-md-2 d-flex flex-column align-items-center vs special"> VS</div>
+            <div class="col-md-5  d-flex flex-column align-items-center" id="boss">
+                <h3 class="text-light text-center">Level: <span id="boss-lvl">1</span> | HP: <span
+                        id="boss-hp">100</span>
+                </h3>
+                <div onclick="attackBoss()">
+                    <img src="https://media0.giphy.com/media/1BDQgv6RNbC9y/giphy.gif" class="bad-img">
+                </div>
+                <!-- <img onclick="attackBoss()" class="bad-img" src="imgs/Wesker 00.png" alt=""> -->
+            </div>
+        </div>
+
+    </main>
+    <footer class="container-fluid bg-dark text-light">
+        <div class="row">
+            <div class="col">
+                <h3 class="text-primary m-3">Credits: <span id="credits">0</span></h3>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <script src="app.js"></script>
+</body>
+
+</html>
