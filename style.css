@@ -19,7 +19,6 @@
     border-radius: 5%;
 }
 
-
 .vs {
     font-size: 100pt;
 }
@@ -27,4 +26,22 @@
 body {
     font-family: "Ruslan Display", cursive;
     height: 100vh;
+}
+
+.special {
+    animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    100% {
+        color: red;
+    }
 }
